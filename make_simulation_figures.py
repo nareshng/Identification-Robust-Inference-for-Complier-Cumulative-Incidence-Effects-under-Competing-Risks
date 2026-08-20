@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-"""Create publication-ready vector figures from the extended simulation."""
+
 from pathlib import Path
 
 import matplotlib as mpl
@@ -8,8 +7,13 @@ import numpy as np
 import pandas as pd
 
 
-RESULTS = Path("/Users/gargn2/extended_results/extended_simulation_results.csv")
-REPLICATES = Path("/Users/gargn2/extended_results/extended_replicate_results.csv")
+RESULTS = Path(
+    "extended_results_final/extended_simulation_results.csv"
+)
+REPLICATES = Path(
+    "extended_results_final/extended_replicate_results.csv"
+)
+
 OUT = Path("figures")
 
 
