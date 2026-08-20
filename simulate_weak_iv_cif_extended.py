@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 """Extended simulations for weak-IV complier CIF score inference.
 
 The script adds four targeted experiments to the core design:
@@ -6,9 +6,6 @@ The script adds four targeted experiments to the core design:
 2. severe independent censoring;
 3. a finite-jump variance ablation for discrete tied event times; and
 4. assumption-violation stress tests (informative censoring and defiers).
-
-Only the valid-design experiments support the coverage theorem.  Stress-test
-coverage is diagnostic and is explicitly labelled as outside the theorem.
 """
 from __future__ import annotations
 
