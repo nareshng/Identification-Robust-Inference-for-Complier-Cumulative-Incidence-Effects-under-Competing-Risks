@@ -1,8 +1,5 @@
-#!/usr/bin/env python3
-"""Simulation for weak-IV robust complier cumulative-incidence inference.
 
-Python 3.11+, NumPy and pandas only.  The implementation uses an
-Aalen--Johansen estimator and its plug-in influence representation.
+"""Simulation for weak-IV robust complier cumulative-incidence inference.
 """
 from __future__ import annotations
 
