@@ -225,7 +225,7 @@ if __name__=='__main__':
     p.add_argument('--replications',type=int,default=1000)
     p.add_argument('--primary-replications',type=int)
     p.add_argument('--quadrature-nodes',type=int,default=60)
-    p.add_argument('--seed',type=int,default=20260819)
+    p.add_argument('--seed',type=int,default=2026)
     p.add_argument('--workers',type=int,default=4)
     p.add_argument('--scenarios',nargs='*')
     run(p.parse_args())
