@@ -1,5 +1,5 @@
-#!/usr/bin/env python3
-"""Extended simulations for weak-IV complier CIF score inference.
+
+"""Simulations for weak-IV complier CIF score inference.
 
 The script adds four targeted experiments to the core design:
 1. local-to-zero compliance, sqrt(n)*kappa_n = c;
