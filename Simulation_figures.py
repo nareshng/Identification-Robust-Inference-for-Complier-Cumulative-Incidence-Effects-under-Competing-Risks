@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-"""Create publication-ready vector figures from the extended simulation."""
+
 from pathlib import Path
 
 import matplotlib as mpl
