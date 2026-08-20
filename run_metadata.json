@@ -1,0 +1,24 @@
+{
+  "seed": 20260819,
+  "truth_method": "product Gauss-Hermite quadrature",
+  "quadrature_nodes": 60,
+  "true_effect": -0.09649172685174347,
+  "quadrature_stability_check": 0.0,
+  "compliance_multiplier": 0.7114055309464351,
+  "python": "3.12.13",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "runtime_seconds": 112.57888388633728,
+  "arguments": {
+    "output": "extended_results_final",
+    "replications": 2000,
+    "primary_replications": 5000,
+    "quadrature_nodes": 60,
+    "seed": 20260819,
+    "workers": 4,
+    "scenarios": null
+  },
+  "number_of_settings": 44,
+  "total_replications": 172000,
+  "note": "Stress-test rows with theorem_valid=false are outside the coverage theorem."
+}
